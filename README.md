@@ -1,2 +1,0 @@
-# v0-1-QAMmahV0TiRbdyQXKs4KFBTO-ErLEg5CfTMz
-v0 chat ErLEg5CfTMz
