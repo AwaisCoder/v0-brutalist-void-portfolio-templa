@@ -7,28 +7,32 @@ import { motion, useMotionValue, useSpring } from "framer-motion"
 
 const projects = [
   {
-    title: "Neural Interface",
-    tags: ["Next.js", "OpenAI", "WebGL"],
+    title: "Workify",
+    tags: ["React.js", "TailwindCSS", "TypeScript", "Appwrite"],
     image: "/abstract-neural-network-visualization-dark-theme.jpg",
     year: "2024",
+    url: "https://workify-three.vercel.app/",
   },
   {
-    title: "Quantum Dashboard",
-    tags: ["React", "D3.js", "Python"],
+    title: "Snyppit",
+    tags: ["React.js", "TailwindCSS", "TypeScript"],
     image: "/futuristic-data-dashboard-dark-minimal.jpg",
     year: "2024",
+    url: "https://snyppit-beta.vercel.app/",
   },
   {
-    title: "Synthetic Memory",
-    tags: ["TypeScript", "LangChain", "Vector DB"],
+    title: "Suburbia",
+    tags: ["React.js", "Next.js", "Three.js", "TailwindCSS"],
     image: "/abstract-memory-storage-visualization.jpg",
-    year: "2023",
+    year: "2024",
+    url: "https://suburbia99.netlify.app/",
   },
   {
-    title: "Echo Protocol",
-    tags: ["Rust", "WebAssembly", "Audio"],
+    title: "Twyster",
+    tags: ["React.js", "TailwindCSS", "TypeScript"],
     image: "/sound-wave-visualization-dark-theme.jpg",
-    year: "2023",
+    year: "2024",
+    url: "https://twyster-app-1.onrender.com/",
   },
 ]
 
@@ -78,7 +82,9 @@ export function Works() {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <a
-              href="#"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
               data-cursor-hover
               className="group flex flex-col md:flex-row md:items-center justify-between gap-4"
             >

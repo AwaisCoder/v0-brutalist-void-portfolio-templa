@@ -4,11 +4,11 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 
 const statements = [
-  "I build products that think alongside humans.",
-  "Design systems that adapt and evolve.",
-  "Interfaces should feel inevitable.",
-  "Every interaction is a conversation.",
-  "Code is just crystallized thought.",
+  "I'm a web developer fluent in the MERN stack.",
+  "JavaScript, TypeScript, and TailwindCSS.",
+  "Crafting creative and impactful web solutions.",
+  "I'm all about teamwork and innovation.",
+  "Building meaningful solutions one line at a time.",
 ]
 
 export function About() {
